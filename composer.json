@@ -5,6 +5,9 @@
     "type": "library",
     "license": "MIT",
     "version": "0.0.1",
+    "require": {
+        "php": "^8.2|^8.3",
+    },
     "autoload": {
         "psr-4": {
             "MaaSolutions\\SimpleAddress\\": "src/"
