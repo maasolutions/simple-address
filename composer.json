@@ -1,0 +1,32 @@
+{
+    "name": "maa-solutions/simple-address",
+    "description": "A simple address extension for Eloquent models",
+    "keywords": ["laravel", "address", "eloquent", "model", "addressable", "helper"],
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "MaaSolutions\\SimpleAddress\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MaaSolutions\\SimpleAddress\\SimpleAddressServiceProvider"
+            ],
+            "aliases": {
+                "SimpleAddress": "MaaSolutions\\SimpleAddress\\Facades\\SimpleAddress"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "Marc-André Appel",
+            "email": "contact@maa.rocks"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^9.0"
+    }
+}
