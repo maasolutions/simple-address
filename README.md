@@ -1,9 +1,9 @@
 # Simple Address for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/maa-solutions/laravel-simple-address.svg?style=flat-square)](https://packagist.org/packages/maa-solutions/laravel-simple-address)
-[![Total Downloads](https://img.shields.io/packagist/dt/maa-solutions/laravel-simple-address.svg?style=flat-square)](https://packagist.org/packagesmaa-solutions/laravel-simple-address)
-[![GitHub Issues](https://img.shields.io/github/issues/maa-solutions/laravel-simple-address.svg?style=flat-square)](https://github.com/maa-solutions/laravel-simple-address/issues)
-[![License](https://img.shields.io/github/license/maa-solutions/laravel-simple-address.svg?style=flat-square)](https://github.com/maa-solutions/laravel-simple-address/blob/master/LICENSE.md)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/maa-solutions/simple-address.svg?style=flat-square)](https://packagist.org/packages/maa-solutions/simple-address)
+[![Total Downloads](https://img.shields.io/packagist/dt/maa-solutions/simple-address.svg?style=flat-square)](https://packagist.org/packagesmaa-solutions/simple-address)
+[![GitHub Issues](https://img.shields.io/github/issues/maa-solutions/simple-address.svg?style=flat-square)](https://github.com/maa-solutions/simple-address/issues)
+[![License](https://img.shields.io/github/license/maa-solutions/simple-address.svg?style=flat-square)](https://github.com/maa-solutions/simple-address/blob/master/LICENSE.md)
 
 A Laravel package to easily manage addresses associated with your Eloquent models.
 
