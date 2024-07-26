@@ -6,6 +6,12 @@ use MaaSolutions\SimpleAddress\Models\Contracts\Addressable;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\ValidationException;
 
+/**
+ * SimpleAddress Helper class.
+ *
+ * @author  Marc-André Appel <contact@maa.rocks>
+ * @package MaaSolutions\SimpleAddress\Helpers
+ */
 class SimpleAddress
 {
     private array $rules = [
@@ -18,11 +24,6 @@ class SimpleAddress
         'latitude' => 'nullable',
         'longitude' => 'nullable',
     ];
-
-    public function __construct()
-    {
-        //
-    }
 
     public function validate(array $data): array
     {

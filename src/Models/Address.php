@@ -6,6 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
+ * The Address model.
+ *
+ * @author Marc-André Appel <contact@maa.rocks>
+ * @package MaaSolutions\SimpleAddress\Models
+ *
  * @property string $street_address
  * @property string $street_address_complement
  * @property string $city
