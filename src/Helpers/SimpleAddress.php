@@ -23,6 +23,7 @@ class SimpleAddress
         'country' => 'nullable',
         'latitude' => 'nullable',
         'longitude' => 'nullable',
+        'group_name' => 'nullable'
     ];
 
     public function validate(array $data): array

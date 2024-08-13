@@ -10,6 +10,9 @@ class AddressDto
         public string $zip_code,
         public string $city,
         public string $country,
+        public string $latitude,
+        public string $longitude,
+        public string $group_name,
     ) {
         //
     }

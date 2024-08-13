@@ -32,6 +32,7 @@ class Address extends Model
         'country',
         'latitude',
         'longitude',
+        'group_name'
     ];
 
     public function addressable(): MorphTo
