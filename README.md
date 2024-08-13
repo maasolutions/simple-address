@@ -16,7 +16,7 @@ The Simple Address package enables you to attach and manage addresses to any of 
 To get started with Simple Address, install it via Composer:
 
 ```sh
-composer require maa-solutions/laravel-simple-address
+composer require maa-solutions/simple-address
 ```
 
 ## Usage
