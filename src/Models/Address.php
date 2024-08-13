@@ -2,6 +2,7 @@
 
 namespace MaaSolutions\SimpleAddress\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 
@@ -38,5 +39,14 @@ class Address extends Model
     public function addressable(): MorphTo
     {
         return $this->morphTo();
+    }
+
+    public function fullAddress(): Attribute
+    {
+        $street_address_complement = $this->street_address_complement ? "$this->street_address_complement\n" : '';
+
+        return Attribute::make(
+            get: fn () => "{$this->street_address}\n$street_address_complement{$this->zip_code} {$this->city}\n{$this->state_province} {$this->country}",
+        );
     }
 }
