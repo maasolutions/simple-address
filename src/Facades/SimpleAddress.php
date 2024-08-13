@@ -5,7 +5,7 @@ namespace MaaSolutions\SimpleAddress\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Facede for the SimpleAddress package.
+ * Facade for the SimpleAddress package.
  *
  * @author Marc-André Appel <contact@maa.rocks>
  * @package MaaSolutions\SimpleAddress\Facades
